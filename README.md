@@ -1,6 +1,29 @@
 # Predict OEIS with DTMC and Chinese Remainder Theorem
 
-# 中国剩余定理内容
+[Kaggle Contest: Integer Sequence Learning](https://www.kaggle.com/c/integer-sequence-learning)
+
+应用随机过程大作业
+
+## 预测方法
+
+- 简单的Markov
+- 两步状态Markov
+- Markov+中国剩余定理（Chinese Remainder Theorem）
+
+## 预测正确率
+
+- 训练集: 8.1%
+- 测试集：8.3%
+- 在线黑箱：7.9%
+
+## 数据分析
+
+![](pictures/pic1.PNG)
+![](pictures/pic2.PNG)
+![](pictures/pic3.PNG)
+![](pictures/pic4.PNG)
+
+## 中国剩余定理
 
 中国剩余定理是一个数论的定理。它指出，如果知道某个整数x除以若干互素的整数<a href="https://www.codecogs.com/eqnedit.php?latex=$\pi$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$\pi$" title="$\pi$" /></a>的余数，则可以唯一确定x除以这些整数的乘积n的余数。在抽象代数中，用同余方式表示的中国剩余定理在所有主理想整环(principal ideal domain, PID)上都成立。若使用一个关于理想的表述，它可以推广到任何交换环上。实际上，整数环Z是一个主理想整环，因此整数情况下的中国剩余定理是PID上的中国剩余定理的一个特例。中国剩余定理广泛用于计算大整数，因为它允许在知道计算结果的大小上的界限的情况下，通过小整数上的几个类似的计算来替代大整数的计算。
 
